@@ -20,12 +20,13 @@ body {
   top: 0;
   overflow: hidden;
   z-index: 100;
+  background-color: white;
 }
 .navbar-nav a{
-  color:rgba(245, 220, 145, 1) !important;
   font-size: 21px;
   font-weight: 500;
   padding: 0px 20px !important;
+  color: black;
 }
 .navbar-nav a:hover {
   border-bottom: 1px solid white; 
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar-brand img {
-  width: 170px;
+  width: 130px;
   height: auto;
 }
 
@@ -108,6 +109,7 @@ body {
   font-size: 15px;
   letter-spacing: 2px;
   margin-top: -20px;
+  font-weight: bold;
 }
 .button:hover{
   transform: scale(1.05);
@@ -560,6 +562,7 @@ fieldset {
     font-size: 14px;
     letter-spacing: 2px;
     margin-top: -20px;
+    font-weight: bold;
   }
 
   .list-section-item-img {
